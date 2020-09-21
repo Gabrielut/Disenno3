@@ -1,8 +1,56 @@
-*, html,body{
+*, html, body {
     margin: 0;
     padding: 0;
 }
 
-header{
-    background-color: black;
+header {
+     background-color: skyblue;
+    height: 112px;
+    line-height: 112px;
+    
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul li {
+    display: inline-block;
+   
+}
+
+header nav {    
+    float: right;   
+    
+}
+
+.logo img {
+    height: 100px;
+    width: 200px;      
+}
+
+header nav ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+} 
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.img1{
+    background-image: url('../images/Paisaje1.jpg');
+    background-size: 100% 100%;
+}
+
+.slider, .slider ul, .slider ul li{
+
+    height: 710px;
+    width: 100%;
+    color: #fff;
 }
