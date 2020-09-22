@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function () {
 
     "use strict";
     $('#slider-carousel').carouFredSel({
@@ -12,17 +12,28 @@ jQuery(document).ready(function(){
         },
         auto: true,
         items: {
-            visible:{
+            visible: {
                 min: 1,
-                max:1
+                max: 1
             },
             height: "variable"
         },
-        pagination:{
+        pagination: {
             container: ".sliderpager",
-            pageAnchorBuilder:false
+            pageAnchorBuilder: false
         }
-    
+
+    });
+    $(window).scroll(function () {
+
+        var top = $(window).scrollTop();
+        if (top >= 60) {
+            $("header").addClass('secondary');
+        } else {
+            if ($("header").hasClass('secondary')) {
+                $("header").removeClass('secondary');
+            }
+        }
     });
 
 });
