@@ -259,9 +259,13 @@ header nav ul li a:hover {
      background-attachment: fixed;
      padding: 100px 0px;
 }
+.title p{
+    margin-bottom: 75px;
+}
 
 .title h2, p{
-    color: #fff;
+    color: #fff;    
+    padding-left: 4px;
 
 }
 
@@ -354,6 +358,7 @@ header nav ul li a:hover {
 }
 
 .feature-mockup{
-    bottom: -200px;
+    bottom: 0px;
     position: relative;
 }
+
