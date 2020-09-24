@@ -10,13 +10,11 @@ body {
 /*Header*/
 
 header {
-
     height: 112px;
     line-height: 112px;
     position: fixed;
     z-index: 1;
     width: 100%;
-
 }
 
 .secondary {
@@ -26,21 +24,15 @@ header {
 }
 
 ul {
-
     list-style: none;
-
 }
 
 ul li {
-
     display: inline-block;
-
 }
 
 header nav {
-
     float: right;
-
 }
 
 .logo img {
@@ -61,11 +53,7 @@ header nav ul li a:hover {
     color: red;
 }
 
-
-
 /*Carousel*/
-
-
 
 .img1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Paisaje1.jpg');
@@ -203,14 +191,14 @@ header nav ul li a:hover {
     -o-transition: 0.6s ease;
 }
 
-.intro-block .intro-icon{
+.intro-block .intro-icon {
     position: absolute;
     top: -31px;
     left: 50%;
     margin-left: -31px;
 }
 
-.intro-block i{
+.intro-block i {
     width: 63px;
     height: 63px;
     font-size: 30px;
@@ -221,7 +209,7 @@ header nav ul li a:hover {
     box-shadow: 0px 0px 0px 10px #cceef9;
 }
 
-.intro-block:hover i, .intro-block.active i{
+.intro-block:hover i, .intro-block.active i {
     background: #fff;
     color: deepskyblue;
     transition: 0.6s ease;
@@ -232,8 +220,7 @@ header nav ul li a:hover {
     box-shadow: 0px 0px 0px 10px deepskyblue;
 }
 
-
-.intro-block h3{
+.intro-block h3 {
     font-size: 18px;
     color: deepskyblue;
     font-weight: 700;
@@ -241,45 +228,42 @@ header nav ul li a:hover {
     margin-bottom: 15px;
 }
 
-.intro-block p{
+.intro-block p {
     color: #505050;
 }
 
-.intro-block:hover h3, .intro-block:hover p{
+.intro-block:hover h3, .intro-block:hover p {
     color: #f6f6f6;
 }
 
 /*Feature*/
 
-
-.feature-area{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-     url(../images/Paisaje1.jpg) no-repeat fixed center center;
-     background-position: center;
-     background-attachment: fixed;
-     padding: 100px 0px;
+.feature-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Paisaje1.jpg) no-repeat fixed center center;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0px;
 }
-.title p{
+
+.title p {
     margin-bottom: 75px;
 }
 
-.title h2, p{
-    color: #fff;    
+.title h2, p {
+    color: #fff;
     padding-left: 4px;
-
 }
 
-.title .sub-heading p{
+.title .sub-heading p {
     color: #f3f3f3;
     border-color: deepskyblue;
-
 }
 
-.single-feature h3, i{
+.single-feature h3, i {
     color: #fff;
 }
 
-.single-feature{
+.single-feature {
     position: relative;
     width: 325px;
     float: left;
@@ -294,21 +278,21 @@ header nav ul li a:hover {
     -o-transition: 0.3s ease;
 }
 
-.feature-block::after{
+.feature-block::after {
     content: "";
     display: table;
 }
 
-.feature-block::after{
+.feature-block::after {
     clear: both;
 }
 
-.feature-icon{
+.feature-icon {
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.single-feature i{
+.single-feature i {
     border: 2px solid #fff;
     padding: 15px;
     border-radius: 50%;
@@ -322,43 +306,107 @@ header nav ul li a:hover {
     -moz-transition: 0.3s ease;
     -ms-transition: 0.3s ease;
     -o-transition: 0.3s ease;
-
 }
 
-.feature-block:hover .single-feature{
-
+.feature-block:hover .single-feature {
     border-color: #fff;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -ms-transition: 0.3s ease;
     -o-transition: 0.3s ease;
-
 }
 
-.single-feature:hover .feature-icon .fa{
+.single-feature:hover .feature-icon .fa {
     border: 2px solid #00a7dd;
     background: #fff;
     color: deepskyblue;
 }
 
-.single-feature:nth-of-type(even){
+.single-feature:nth-of-type(even) {
     border-right: none;
-    
 }
 
-.single-feature:nth-last-child(2){
+.single-feature:nth-last-child(2) {
     border-bottom: none;
-    
 }
 
-.single-feature:last-child{
+.single-feature:last-child {
     border-bottom: none;
-    
 }
 
-.feature-mockup{
+.feature-mockup {
     bottom: 0px;
     position: relative;
+}
+
+/*Feature Area 2*/
+
+.more-feature-area {
+    padding: 100px 0px;
+}
+
+.more-feature-area .title h2 {
+    color: #000;
+}
+
+.more-feature-area .title .sub-heading p {
+    color: darkgrey;
+}
+
+.feature-list ul {
+    color: #000;
+    list-style: none;
+}
+
+.feature-list li {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 80px;
+    color: #000;
+}
+
+.feature-list i {
+    color: #000;
+}
+
+.feature-list li:hover i {
+    color: #fff;
+    background-color: deepskyblue;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.featured-icon {
+    position: absolute;
+    left: 0;
+}
+
+.featured-icon .fa {
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+    color: deepskyblue;
+    border-radius: 50%;
+    border: 2px solid deepskyblue;
+    line-height: 63px;
+}
+
+.feature-details h3{
+    color: deepskyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.feature-details p{
+    color: #616161;
+    font-weight: 200;
+
 }
 
