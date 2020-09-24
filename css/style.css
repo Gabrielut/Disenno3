@@ -397,16 +397,55 @@ header nav ul li a:hover {
     line-height: 63px;
 }
 
-.feature-details h3{
+.feature-details h3 {
     color: deepskyblue;
     font-weight: 700;
     text-transform: uppercase;
-
 }
 
-.feature-details p{
+.feature-details p {
     color: #616161;
     font-weight: 200;
-
 }
+
+/*testimonials*/
+
+.testimonials
+{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(..//images/Paisaje2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+    margin-top:-100px;
+}
+
+
+.testimonials .carousel-indicators
+{
+    bottom: -60px;
+}
+.testimonials .sub-heading p
+{
+    color: white;
+}
+
+.carousel-inner img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border:2px solid deepskyblue;
+    padding: 5px;
+    
+}
+
+.testimonials .carousel-indicators li.active
+{
+    background-color: deepskyblue;
+}
+
+/*Work Team*/
 
