@@ -570,3 +570,46 @@ header nav ul li a:hover {
     -o-transition: 0.5s ease-in-out;
 
 }
+/*Download Area*/
+
+.download {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7) ),  url("..//images/Paisaje2.jpg") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+.download h2{
+    color: #fff;
+}
+
+.download .sub-heading p{
+    color: #fff;
+}
+
+.download .default-btn{
+    color: #fff;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 8px 40px;
+    margin: 0 12px;
+}
+
+.download .default-btn:hover {
+    background: #fff;
+    color: deepskyblue;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+
+.downloadnow {
+    padding: 100px 0px;
+}
