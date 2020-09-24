@@ -2,6 +2,36 @@
 <html lang="en">
 
 <head>
+
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('tg6kiwfnxdgb');
+    </script>
+    <!-- End of Async Drift Code -->
+
     <title>Web Desing</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -565,7 +595,8 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" cols="30" rows="10" required="required"></textarea>
+                                        <textarea class="form-control" cols="30" rows="10"
+                                            required="required"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <input type="submit" class="btn default-btn btn-block" value="Enviar">
@@ -582,6 +613,44 @@
         </div>
     </section>
 
+
+    <section class="map">
+        <div class="text-center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62861.938734566975!2d-84.23995150103649!3d10.02748841500566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9c871fbddb3%3A0xb1f90fbc26bf36cb!2sProvincia%20de%20Alajuela%2C%20Alajuela!5e0!3m2!1ses-419!2scr!4v1600985833202!5m2!1ses-419!2scr"
+                width="1200px" height="500px" frameborder="0" style="border:0;" allowfullscreen="true"
+                aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                 <div class="social-icon">
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                     <a href="#"><i class="fa fa-google-plus"></i></a>
+                     <a href="#"><i class="fa fa-pinterest"></i></a>
+                     <a href="#"><i class="fa fa-rss"></i></a>
+                     <a href="#"><i class="fa fa-linkedin"></i></a>
+                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                     <a href="#"><i class="fa fa-youtube-square"></i></a>
+                     <a href="#"><i class="fa fa-dribbble"></i></a>
+                 </div>
+                 <div class="copyright">
+                     <br>
+                     <br>
+                     <p>
+                        &copy; <b>Gabriel Torres</b>
+
+                     </p>
+                     <div class="bordernow"></div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

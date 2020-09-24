@@ -680,16 +680,71 @@ header nav ul li a:hover {
     border-radius: 0;
 }
 
-.contact-area .form-group{
-
+.contact-area .form-group {
     margin-bottom: 30px;
 }
 
-.contact-area textarea{
+.contact-area textarea {
     min-height: 115px;
 }
 
-.contact-area .default-btn{
+.contact-area .default-btn {
     padding: 10px;
-    
+}
+
+/*Mapa*/
+
+.mapa {
+    position: relative;
+}
+
+/*Footer*/
+
+footer {
+    background: #34495e;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.social-icon a {
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+
+.social-icon .fa {
+    color: deepskyblue;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 2;
+    border: 10px solid #b1c9d1;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    text-align: center;
+}
+
+.social-icon a:hover .fa {
+    border: 10px solid #fff;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bordernow {
+    width: 80px;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+    margin-top: 20px;
 }
