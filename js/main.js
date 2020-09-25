@@ -36,4 +36,7 @@ jQuery(document).ready(function () {
         }
     });
     $('a').smoothScroll();
+    $('#menu').slicknav({
+        label: '',
+    });
 });
