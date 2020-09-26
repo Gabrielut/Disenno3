@@ -3,29 +3,29 @@
 
 <head>
     <script>
-        !function() {
-          var t;
-          if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-          t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-          t.factory = function(e) {
-            return function() {
-              var n;
-              return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function(e) {
-            t[e] = t.factory(e);
-          }), t.load = function(t) {
-            var e, n, o, i;
-            e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-          });
+        !function () {
+            var t;
+            if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+                t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function (e) {
+                    return function () {
+                        var n;
+                        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+                    };
+                }, t.methods.forEach(function (e) {
+                    t[e] = t.factory(e);
+                }), t.load = function (t) {
+                    var e, n, o, i;
+                    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+                        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+                });
         }();
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('tg6kiwfnxdgb');
-        </script>
-<!-- Start of Async Drift Code -->
-<!-- <script>
+    </script>
+    <!-- Start of Async Drift Code -->
+    <!-- <script>
     "use strict";
     
     !function() {
@@ -57,23 +57,26 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/yourcode.js"></script> -->
-    <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"> -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/caroufredsel.js" type="text/javaScript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
+
 <body>
+
     <header>
         <div class="container">
             <div class="row">
-                <a href="#" class="logo"><img src="https://firebasestorage.googleapis.com/v0/b/angular-design.appspot.com/o/Gabriel4.png?alt=media&token=ebd14d9d-7e87-4bd6-8f95-b442f70046b1" alt=""></a>
+                <a href="#" class="logo animated bounce"><img
+                        src="https://firebasestorage.googleapis.com/v0/b/angular-design.appspot.com/o/Gabriel4.png?alt=media&token=ebd14d9d-7e87-4bd6-8f95-b442f70046b1"
+                        alt=""></a>
                 <nav>
                     <ul class="menu" id="menu">
                         <li><a href="#slider-carousel">Home</a></li>
@@ -651,26 +654,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                 <div class="social-icon">
-                     <a href="#"><i class="fa fa-facebook"></i></a>
-                     <a href="#"><i class="fa fa-twitter"></i></a>
-                     <a href="#"><i class="fa fa-google-plus"></i></a>
-                     <a href="#"><i class="fa fa-pinterest"></i></a>
-                     <a href="#"><i class="fa fa-rss"></i></a>
-                     <a href="#"><i class="fa fa-linkedin"></i></a>
-                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
-                     <a href="#"><i class="fa fa-youtube-square"></i></a>
-                     <a href="#"><i class="fa fa-dribbble"></i></a>
-                 </div>
-                 <div class="copyright">
-                     <br>
-                     <br>
-                     <p>
-                        &copy; <b>Gabriel Torres</b>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-rss"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                        <a href="#"><i class="fa fa-youtube-square"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </div>
+                    <div class="copyright">
+                        <br>
+                        <br>
+                        <p>
+                            &copy; <b>Gabriel Torres</b>
 
-                     </p>
-                     <div class="bordernow"></div>
-                 </div>
+                        </p>
+                        <div class="bordernow"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -679,7 +682,10 @@
     <script src="js/main.js" type="text/javascript"></script>
 
     <script src="js/smoothScroll.js" type="text/javascript"></script>
- <script src="js/jquery.slicknav.min.js" type="text/javascript"></script>
+    <script src="js/jquery.slicknav.min.js" type="text/javascript"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
